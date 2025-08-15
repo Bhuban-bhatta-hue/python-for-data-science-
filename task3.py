@@ -1,7 +1,7 @@
 #TASK:make a simple calculator using if elif operator 
 num1=int(input("enter a first number:"))
 num2=int(input("enter second number:"))
-operator=input("enter the string")
+operator=input("enter the required operator")
 if operator== "+":
     sum= num1+num2 
     print("sum of ",num1,"and",num2,"is :",sum)
@@ -22,4 +22,5 @@ elif(operator=="**"):
      print("power of ",num1,"and",num2,"is :",power)
 else:
      print("please enter valid operator")
+
 
