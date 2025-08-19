@@ -46,23 +46,23 @@ match choice:
 #     print("a is not present is extract list")
 
 # Task: Create a simple calculator system
-# num1=float(int(input("enter the first number")))
-# num2=float(int(input("enter the second number")))
-# operators=input("choose a operator among + , - , / , * , ** , % ")
-# if operators is "+":
-#     print("sum of two number is:",num1+num2)
-# elif operators is "-":
-#     print("subtraction of two number is:",num1-num2)
-# elif operators is "*":
-#     print("multiplication of two number is:",num1*num2)
-# elif operators is "/":
-#     print("subtraction of two number is:",num1/num2)
-# elif operators is "%":
-#     print("subtraction of two number is:",num1%num2)
-# elif operators is "**":
-#     print("subtraction of two number is:",num1**num2)
+num1=float(int(input("enter the first number")))
+num2=float(int(input("enter the second number")))
+operators=input("choose a operator among + , - , / , * , ** , % ")
+if operators is "+":
+    print("sum of two number is:",num1+num2)
+elif operators is "-":
+    print("subtraction of two number is:",num1-num2)
+elif operators is "*":
+    print("multiplication of two number is:",num1*num2)
+elif operators is "/":
+    print("subtraction of two number is:",num1/num2)
+elif operators is "%":
+    print("subtraction of two number is:",num1%num2)
+elif operators is "**":
+    print("subtraction of two number is:",num1**num2)
 
-#WAP to find the gratest number among three number number is given by user
+#WAP to find the greatest number among three number, number is given by user
 no1=float(input("enter the first number"))
 no2=float(input("enter the second number"))
 no3=float(input("enter the third number"))
@@ -72,3 +72,4 @@ elif no2>no1 and no2>no3:
     print(f"number2 {no2} is the greater number")
 if no2>no1 and no3>no2:
     print(f"number3 {no3} is the greater number")
+
